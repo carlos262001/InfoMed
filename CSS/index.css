@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body > header:nth-child(1) {
+  background-color: #1159c4;
+  display: flex;
+  align-items: center;
+  padding: 0.56rem 0.87rem;
+}
+
+body > header:nth-child(1) > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > header:nth-child(1) > div > img {
+  width: 1.09375rem;
+  height: 1.25rem;
+  margin: 0.65rem;
+}
+
+body > header:nth-child(1) > div > span {
+  font-family: "Raleway", sans-serif;
+  color:#ffffff;
+  font-size: 1.25rem;
+}
+
+footer {
+  background-color: #02cbfd;
+  padding: 0.5rem;
+  position: relative;
+  bottom: 0;
+  font-size: 0.5rem;
+  width: 100%;
+}
+
+footer > p {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  margin: 0.5rem 0;
+}
+
+section{
+  margin-top: 1.0rem;
+  margin-left: 10.0rem;
+  margin-right: 10.0rem;
+}
+
+/* CSS para os cards */
+.card {
+  height: 12rem;
+  border-radius: 0.5rem;
+  border: 3px solid #02cbfd;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  margin-bottom: 0.5rem;
+}
+
+.card > article {
+  padding: 0.5rem;
+  background-color: #02cbfd;
+  width: 100%;
+  opacity: 80%;
+}
+
+.card > article > a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#card_one {
+  background-image: url("../imagens_projeto_final/comprimidos.jpg");
+}
+#card_two {
+  background-image: url("../imagens_projeto_final/injeção.jpg");
+}
+#card_three {
+  background-image: url("../imagens_projeto_final/xarope.jpg");
+}

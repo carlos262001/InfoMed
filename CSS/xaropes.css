@@ -1,0 +1,5 @@
+@import url(style.css);
+
+body > .Xarope:nth-child(3) {
+    background-image: url("../imagens_projeto_final/xarope.jpg");
+  }
